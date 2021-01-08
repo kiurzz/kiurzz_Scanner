@@ -52,8 +52,8 @@ if __name__ == '__main__':
 |__|\__\ |__|  \______/  | _| `._____|/________| /________| _____|_______/     \______/__/     \__\ |__| \__| |__| \__| |_______|| _| `._____|
                                                            |______|                                                                           """)
 
-    print("kiurzz_Scanner | Network Scanner")
-    print("Help is available with the command : python3 Pyscanner.py -h\n")
+    print("kiurzz_Scanner | Advanced Network Scanner")
+    print("Help is available with the command : python3 kiurzz_Scanner.py -h\n")
     parser = argparse.ArgumentParser()
     parser.add_argument('-n', '--network',
                         help='Allows to define the IP address and its subnet mask. ex : 192.168.1.0/24', type=str,
